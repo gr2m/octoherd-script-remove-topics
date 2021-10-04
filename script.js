@@ -49,9 +49,6 @@ export async function script(octokit, repository, { topics }) {
     return;
   }
 
-  console.log(`newTopics`);
-  console.log(newTopics);
-
   await octokit.request("PUT /repos/{owner}/{repo}/topics", {
     owner,
     repo,
