@@ -1,0 +1,29 @@
+{
+  "name": "octoherd-script-remove-topics",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-remove-topics": "./cli.js"
+  },
+  "description": "remove topic(s) from repositories",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/gr2m/octoherd-script-remove-topics",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Gregor Martynus (https://dev.to/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.4.2"
+  },
+  "devDependencies": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
